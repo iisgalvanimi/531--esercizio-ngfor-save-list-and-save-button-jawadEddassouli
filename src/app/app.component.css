@@ -1,0 +1,11 @@
+.contenitore{
+    border-style: solid;
+    background-color: aqua;
+    padding: 2%;
+    font-size: large;
+}
+
+.elem_risultato{
+    border-style: solid;
+    background-color: blueviolet;
+}

@@ -1,16 +1,17 @@
 <div class="contenitore">
 
-  <h1>aggiungi alla lista</h1>
+  <h1>Aggiungi alla lista</h1>
 
-  <div>
+  <div class="inserire">
     <label>inserisci qualcosa </label>
     <input type="text" [(ngModel)]="testo" placeholder="SCRIVI QUA" >
-    <button (click)="onClick()">save</button>
+    <button (click)="onClick()">SAVE</button>
   </div>
 
-  <div>
-    <h1>elementi della lista</h1>
+  
+  <h1>Elementi della lista</h1>
 
+  <div class="aggiungere">
       <p *ngFor="let item of list; index as i" class="elem_risultato">
         {{i}}- {{item}}
       </p>
